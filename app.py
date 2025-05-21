@@ -9,7 +9,7 @@ st.title("Projet IA - Prédiction")
 # Charger le modèle sauvegardé
 @st.cache_resource
 def load_model():
-    return joblib.load('mon_modele.pkl')
+    return joblib.load('modele_final.pkl')
 
 model = load_model()
 
